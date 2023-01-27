@@ -24,6 +24,21 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
+  .section1{
+    background-color: rgb(251, 255, 196);
+    display: inline-flex;
+    font-size: 15px;
+    margin-left: 20px;
+    padding: 10px;
+    justify-content: space-around;
+    width: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .section1 li {
+    list-style: none;
+  }
+
+  }
   
 
 /*Resizing screen*/
