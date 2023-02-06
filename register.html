@@ -10,32 +10,35 @@
 <body>
   <div class="container">
     <div class="title">Sign Up!</div>
+    <div class="liner">
+      Please fill in this form to create an account.
+    </div>
     <div class="content">
-      <form action="#">
+      <form action="/action_page.php">
         <div class="user-details">
           <div class="input-box">
-            <span class="details">Full Name</span>
-            <input type="text" placeholder="Enter your name" required>
+            <span class="details">First Name</span>
+            <input type="text" placeholder="Enter your firstname" required>
           </div>
           <div class="input-box">
-            <span class="details">Username</span>
-            <input type="text" placeholder="Enter your username" required>
+            <span class="details">Last Name</span>
+            <input type="text" placeholder="Enter your lastname" required>
           </div>
           <div class="input-box">
             <span class="details">Email</span>
-            <input type="text" placeholder="Enter your email" required>
+            <input type="email" placeholder="Enter your email" required>
           </div>
           <div class="input-box">
-            <span class="details">Phone Number</span>
-            <input type="text" placeholder="Enter your number" required>
+            <span class="details">Mobile Number</span>
+            <input type="tel" pattern="[1-9]{1}[0-9]{9}" placeholder="Enter your mobile number" required>
           </div>
           <div class="input-box">
             <span class="details">Password</span>
-            <input type="text" placeholder="Enter your password" required>
+            <input type="password" placeholder="Enter your password" required>
           </div>
           <div class="input-box">
             <span class="details">Confirm Password</span>
-            <input type="text" placeholder="Confirm your password" required>
+            <input type="password" placeholder="Confirm your password" required>
           </div>
         </div>
         <div class="gender-details">

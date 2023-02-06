@@ -35,6 +35,12 @@ body{
   border-radius: 5px;
   background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
+
+.liner{
+  font-size: 90%;
+
+}
+
 .content form .user-details{
   display: flex;
   flex-wrap: wrap;
