@@ -185,7 +185,7 @@
   
    .aboutus{
     align-items: center;
-    padding: 5%;
+    padding: 10vh;
   }
   
   .aboutus .heading1{
@@ -196,23 +196,33 @@
   
   .container2 {
     background-color: rgb(51, 46, 122);
-    min-height: 100vh;
+    min-height: 90vh;
     width: 100%;
   }
   
    .contactus{
     align-items: center;
+    padding: 10vh;
   }
   
-  .heading2{
+  .contactus .heading2{
     text-align: center;
     color: aliceblue;
-    font-size: 50px;
-    padding: 5%; 
+    font-size: 50px; 
+  }
+
+  .footer{
+    text-align: center;
+    background-color: #000;
+    width: 100%;
+    min-height: 7vh;
+    padding-top: 3vh;
+    color: #fff;
+    font-size: small;
   }
   
   
-  /*Resizing screen////////////////////////////////////////////////////////////*/
+  /*/////////////////////////Resizing screen////////////////////////////////////////////////////////////*/
   
   
   @media screen and (max-width:680px) {
@@ -273,6 +283,8 @@
     .animateGIF{
       display: none;
     }
+
+   
   
   }
   
