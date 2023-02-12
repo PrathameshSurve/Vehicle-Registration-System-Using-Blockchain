@@ -26,5 +26,5 @@ navSlide();
 /*Goto platform button */
 document.getElementById("mainBtn").addEventListener("click", redirectFunction);     
 function redirectFunction(){
-    window.location.href = "register.html";
+    window.location.href = "http://localhost:3000/Register/index.php";
 }

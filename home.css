@@ -186,6 +186,8 @@
    .aboutus{
     align-items: center;
     padding: 10vh;
+    text-align: center;
+    color: #fff;
   }
   
   .aboutus .heading1{
@@ -353,14 +355,14 @@
     .logo {
       font-size: medium;
     }
-  
-    .heading {
-   
+
+    .page1{
+      flex-direction: column;
+    }
+    .page1 .heading {   
       padding-top: 30%;
-      display: inline-flexbox;
-      width: 100%;
       text-align: center;
-  
+      width: 100%;
     }
     
     .text-title {
