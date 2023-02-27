@@ -55,6 +55,7 @@
           <span>USER LOGIN</span>
           <button type="reset" onclick="popup('login-popup')">X</button>
         </h2>
+        
         <input type="text" placeholder="E-mail or Username" name="email_username">
         <input type="password" placeholder="Password" name="password">
         <button type="submit" class="login-btn" name="login">LOGIN</button>
@@ -102,6 +103,14 @@
       }
     }
   </script>
+
+<script>
+    history.pushState(null, null, null);
+    window.addEventListener('popstate', function () {
+        history.pushState(null, null, null);
+    });
+</script>
+
 
 </body>
 </html>
