@@ -50,12 +50,11 @@
 
   <div class="popup-container" id="login-popup">
     <div class="popup">
-      <form method="POST" action="login_register.php">
+      <form autocomplete="off" method="POST" action="login_register.php">
         <h2>
           <span>USER LOGIN</span>
           <button type="reset" onclick="popup('login-popup')">X</button>
         </h2>
-        
         <input type="text" placeholder="E-mail or Username" name="email_username">
         <input type="password" placeholder="Password" name="password">
         <button type="submit" class="login-btn" name="login">LOGIN</button>
@@ -65,7 +64,7 @@
 
   <div class="popup-container" id="register-popup">
     <div class="register popup">
-      <form method="POST" action="login_register.php">
+      <form autocomplete="off" method="POST" action="login_register.php">
         <h2>
           <span>USER REGISTER</span>
           <button type="reset" onclick="popup('register-popup')">X</button>
@@ -79,16 +78,11 @@
     </div>
   </div>
 
+  <div class="page1">
+    <a href="/home.html">Home</a>
+  </div>
 
-  <?php
-      if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']==true)
-      {
-        echo"<h1 style='text-align: center; margin-top: 200px'>Hii $_SESSION[username],</h1>
-        <h2 style='text-align: center'>WELCOME TO THIS WEBSITE.</h2>";
 
-      }
-      
-  ?>
   <script>
     function popup(popup_name)
     {
