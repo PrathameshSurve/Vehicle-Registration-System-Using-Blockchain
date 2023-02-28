@@ -31,6 +31,10 @@
     font-weight: 600;
   }
 
+  a:hover{
+    color: rgb(35, 35, 218);
+  }
+
   .page1{
     background-color: antiquewhite;
     display: flex;
